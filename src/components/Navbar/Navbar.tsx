@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className='bg_green px-[20px] py-[12px]'>
       <div className='w-[100%] flex justify-between'>
-        <h5>Logo</h5>
+        <h5 className='text-[#fff]'>Nodir Brend</h5>
         <div className='flex gap-[8px]'>
           <img src={Avatar} alt="ava" className='w-[32px] h-[32px]'/>
           <div className='flex flex-col gap-[2px]'>
