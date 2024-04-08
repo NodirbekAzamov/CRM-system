@@ -13,7 +13,7 @@ const Sidebar = () => {
     { id: 1, text: "Bosh sahifa", icon: Home, path: "" },
     { id: 2, text: "Savol-javoblar", icon: QA, path: "" },
     { id: 3, text: "Topshiriqlarni baholash", icon: Tasks, path: "" },
-    { id: 4, text: "Studentlar", icon: Students, path: "" },
+    { id: 4, text: "Studentlar", icon: Students, path: "/studentlar" },
     { id: 5, text: "Kurslar", icon: Courses, path: "" },
     { id: 6, text: "Foydalanuvchilar", icon: Users, path: "" },
   ]);
