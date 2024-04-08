@@ -10,7 +10,9 @@ const App = () => {
         <Navbar />
       </div>
       <div className="flex">
+        <div className="w-[256px]">
         <Sidebar />
+        </div>
         <Routes>
           <Route path="/" element={""}/>
           <Route path="users" element={<Users/>}/>
