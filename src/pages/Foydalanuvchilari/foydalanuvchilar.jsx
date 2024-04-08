@@ -1,7 +1,9 @@
 import React from 'react'
 
-export default function foydalanuvchilar() {
+const foydalanuvchilar = () => {
   return (
     <div>foydalanuvchilar</div>
   )
 }
+
+export default foydalanuvchilar
