@@ -9,6 +9,7 @@ const App = () => {
       <Sidebar/>
       <Routes>
         <Route/>
+        <Route/>
       </Routes>
     </div>
   )
