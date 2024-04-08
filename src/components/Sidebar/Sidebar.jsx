@@ -15,7 +15,7 @@ const Sidebar = () => {
     { id: 3, text: "Topshiriqlarni baholash", icon: Tasks, path: "" },
     { id: 4, text: "Studentlar", icon: Students, path: "" },
     { id: 5, text: "Kurslar", icon: Courses, path: "" },
-    { id: 6, text: "Foydalanuvchilar", icon: Users, path: "" },
+    { id: 6, text: "Foydalanuvchilar", icon: Users, path: "/users" },
   ]);
   const [id, setId] = useState(1);
   useEffect(() => {
