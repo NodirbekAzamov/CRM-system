@@ -42,19 +42,15 @@ const Sidebar = () => {
               <li
                 key={index}
                 onClick={() => activeLink(item?.id)}
-                className={`${
-                  id === item?.id ? "bg-[#D5DCDD]" : ""
-                } cursor-pointer flex gap-[8px] items-center px-[12px] py-[10px] w-[100%] hover:bg-[#D5DCDD] rounded-[8px]`}
-              >
+                className={`${id === item?.id ? "bg-[#D5DCDD]" : ""
+                  } cursor-pointer flex gap-[8px] items-center px-[12px] py-[10px] w-[100%] hover:bg-[#D5DCDD] rounded-[8px]`}>
                 <img
                   src={item?.icon}
                   alt={item?.text}
-                  className="w-[16px] h-[16px] object-contain"
-                />
+                  className="w-[16px] h-[16px] object-contain"/>
                 <Link
                   to={item?.path}
-                  className="text_darkGray text-[14px] font-[400] no-underline"
-                >
+                  className="text_darkGray text-[14px] font-[400] no-underline">
                   {item?.text}
                 </Link>
               </li>
@@ -66,12 +62,10 @@ const Sidebar = () => {
         <img
           src={Leave}
           alt="leave"
-          className="w-[16px] h-[16px] object-contain"
-        />
+          className="w-[16px] h-[16px] object-contain"/>
         <Link
           to=""
-          className="text_darkGray text-[14px] font-[400] no-underline"
-        >
+          className="text_darkGray text-[14px] font-[400] no-underline">
           Tizimdan chiqish
         </Link>
       </div>
