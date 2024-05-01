@@ -2,7 +2,7 @@ import React from "react";
 import { IoMdClose } from "react-icons/io";
 import ProfilePic from "../../assets/addPic.png";
 import Button from "../../components/button/Button"
-import Slider from '@mui/material/Slider';
+// import Slider from '@mui/material/Slider';
 import User from "../../assets/user.jpg"
 import Frame from "../../assets/frame.jpg"
 const UsersModal = ({ open, toggle }) => {
