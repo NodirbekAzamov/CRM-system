@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { IoMdClose } from "react-icons/io";
-import Button from '../../../components/button/Button';
 
 const StudentModal = ({ open, toggle }) => {
   const [modal, setModal] = useState(false);
